@@ -150,3 +150,30 @@ h2 {
         text-align: center;
     }
 }
+
+/* Call to action section */
+
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.cta-words {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 3rem;  
+    font-weight: 900;
+}
+
+/* Footer section */
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icon {
+    padding: 1%;
+}
