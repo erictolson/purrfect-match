@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Source Serif Pro', serif; 
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ p {
 
 .title-heading {
     font-size: 3.5rem;  
-    line-height: 1.5;  
+    line-height: 1.5; 
 }
 
 .section-heading {
@@ -36,7 +36,7 @@ p {
 
 /* Sections */
 .colored-section {
-    background-color: #ff4c68;
+    background-color: #1B2430;
     color: white;
 }
 
@@ -64,7 +64,7 @@ p {
 }
 
 .nav-link {
-    font-family: 'Montserrat', sans-serif;  
+    font-family:'Source Serif Pro', serif;  
     font-size: 1.2rem;  
     font-weight: 300;
 }
@@ -85,10 +85,11 @@ p {
 }
 
 .title-image {
-    width: 25%;
+    width: 55%;
     transform: rotate(25deg);
-    position: absolute;
-    right: 20%;
+    position: relative;
+    left: 22%;
+  
 }
 
 
@@ -109,20 +110,16 @@ p {
 }
 
 .feature-icon {
-    color: #ef8172;
+    color: #1B2430;
     margin-bottom: 1rem;
 } 
 
 .feature-icon:hover {
-    color: #ff4c68
+    color: #51557E
 }
 
 
 /* Testimonials Section */
-
-#testimonials {
-    background-color: #ef8172;
-}
 
 .testimonials-text {
     font-size: 3rem;  
@@ -136,7 +133,6 @@ p {
 }
 
 #press {
-    background-color: #ef8172;
     padding-bottom: 3%;
 }
 
@@ -164,7 +160,7 @@ p {
 /* CTA Section */
 
 .cta-words {
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'Source Serif Pro', serif;  
     font-size: 3rem;  
     font-weight: 900;
 }
@@ -181,5 +177,9 @@ p {
         position: static;
         transform: rotate(0);
         width: 60%;
+    }
+
+    #title {
+        text-align: center;
     }
 }
