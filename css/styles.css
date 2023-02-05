@@ -182,4 +182,8 @@ p {
     #title {
         text-align: center;
     }
+
+    .nav-item {
+        text-align: right;
+    }
 }
